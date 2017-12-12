@@ -4,6 +4,8 @@ Tools for using Babel with Django
 This package contains various utilities for integration of `Babel`_ into the
 `Django`_ web framework:
 
+This is a hard fork of django-babel_
+
  * A message extraction plugin for Django templates.
  * A middleware class that adds the Babel `Locale`_ object to requests.
  * A set of template tags for date and number formatting.
@@ -341,6 +343,7 @@ would render **10E5**.
 
 
 
+.. _django-babel: https://pypi.python.org/pypi/django-babel
 .. _Babel: http://babel.pocoo.org/
 .. _Django: https://www.djangoproject.com/
 .. _wrapper scripts: https://docs.djangoproject.com/en/dev/topics/i18n/translation/#localization-how-to-create-language-files
