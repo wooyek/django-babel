@@ -8,6 +8,14 @@ This package contains various utilities for integration of `Babel`_ into the
  * A middleware class that adds the Babel `Locale`_ object to requests.
  * A set of template tags for date and number formatting.
 
+This is a hard fork of django-babel_
+
+.. image:: https://img.shields.io/pypi/v/django2-babel.svg
+    :target: https://pypi.python.org/pypi/django2-babel
+
+.. image:: https://img.shields.io/travis/wooyek/django2-babel.svg
+    :target: https://travis-ci.org/wooyek/django2-babel
+
 
 Extracting Messages
 -------------------
@@ -341,6 +349,7 @@ would render **10E5**.
 
 
 
+.. _django-babel: https://pypi.python.org/pypi/django-babel
 .. _Babel: http://babel.pocoo.org/
 .. _Django: https://www.djangoproject.com/
 .. _wrapper scripts: https://docs.djangoproject.com/en/dev/topics/i18n/translation/#localization-how-to-create-language-files

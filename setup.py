@@ -12,10 +12,10 @@ def read(*parts):
 
 
 setup(
-    name='django-babel',
-    description='Utilities for using Babel in Django',
+    name='django2-babel',
+    description='Utilities for using Babel in Django, without and upper Django version constraint.',
     long_description=read('README.rst') + u'\n\n' + read('CHANGELOG.rst'),
-    version='0.6.1',
+    version='0.6.3',
     license='BSD',
     author='Christopher Grebs',
     author_email='cg@webshox.org',
@@ -24,7 +24,7 @@ setup(
     url='https://github.com/python-babel/django-babel/',
     packages=find_packages(exclude=('tests',)),
     install_requires=[
-        'django>=1.4,<1.12',
+        'django>=1.4',
         'babel>=1.3',
     ],
     classifiers=[
