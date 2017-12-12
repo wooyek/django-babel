@@ -4,11 +4,17 @@ Tools for using Babel with Django
 This package contains various utilities for integration of `Babel`_ into the
 `Django`_ web framework:
 
-This is a hard fork of django-babel_
-
  * A message extraction plugin for Django templates.
  * A middleware class that adds the Babel `Locale`_ object to requests.
  * A set of template tags for date and number formatting.
+
+This is a hard fork of django-babel_
+
+.. image:: https://img.shields.io/pypi/v/django2-babel.svg
+    :target: https://pypi.python.org/pypi/django2-babel
+
+.. image:: https://img.shields.io/travis/wooyek/django2-babel.svg
+    :target: https://travis-ci.org/wooyek/django2-babel
 
 
 Extracting Messages
