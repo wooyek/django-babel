@@ -13,6 +13,12 @@ This is a hard fork of django-babel_
 .. image:: https://img.shields.io/pypi/v/django2-babel.svg
     :target: https://pypi.python.org/pypi/django2-babel
 
+.. image:: https://img.shields.io/pypi/pyversions/django2-babel.svg
+    :target: https://pypi.python.org/pypi/django2-babel
+
+.. image:: https://img.shields.io/pypi/djversions/django2-babel.svg
+    :target: https://pypi.python.org/pypi/django2-babel
+
 .. image:: https://img.shields.io/travis/wooyek/django2-babel.svg
     :target: https://travis-ci.org/wooyek/django2-babel
 
