@@ -8,7 +8,7 @@ This package contains various utilities for integration of `Babel`_ into the
  * A middleware class that adds the Babel `Locale`_ object to requests.
  * A set of template tags for date and number formatting.
 
-This is a hard fork of django-babel_
+This is a hard fork of django-babel_ casued by a time consuming nitpicking in `pull request #39 <https://github.com/python-babel/django-babel/pull/39>`_
 
 .. image:: https://img.shields.io/pypi/v/django2-babel.svg
     :target: https://pypi.python.org/pypi/django2-babel
